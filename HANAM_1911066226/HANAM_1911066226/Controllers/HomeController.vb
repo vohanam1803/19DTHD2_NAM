@@ -21,6 +21,7 @@
     Function Account() As ActionResult
         ViewData("Message") = "CC."
         ViewData("Message") = "AA."
+        ViewData("Message") = "BB."
         Return View()
     End Function
 End Class
