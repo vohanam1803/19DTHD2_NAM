@@ -16,4 +16,9 @@
 
         Return View()
     End Function
+
+    Function Account() As ActionResult
+        ViewData("Message") = "CC."
+        Return View()
+    End Function
 End Class
